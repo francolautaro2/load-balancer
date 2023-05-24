@@ -53,7 +53,7 @@ var idx int = 0
 var s Services
 
 // Load balancer function
-// implementation round robin algorithm
+// implementation Round Robin algorithm
 func LoadBalancer(w http.ResponseWriter, r *http.Request) {
 
 	// DEFINE THE SERVICES
